@@ -62,7 +62,7 @@ namespace Entidades
         {
             string resultado;
 
-            if (Int32.TryParse(ObtenerValorEnteroAbsoluto(numero), out int num))
+            if (!numero.Equals(double.MinValue.ToString()) && Int32.TryParse(ObtenerValorEnteroAbsoluto(numero), out int num))
             {
                 resultado = Convert.ToString(num, 2);
             }
