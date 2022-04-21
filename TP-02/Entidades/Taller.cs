@@ -8,14 +8,8 @@ namespace Entidades
     /// </summary>
     public sealed class Taller
     {
-        private List<object> Vehiculos = new List<object>();
-        private int EspacioDisponible;
-
-        // todo: eliminar
-        //private Taller()
-        //{
-        //    this.vehiculos = new List<Vehiculo>();
-        //}
+        private readonly List<Vehiculo> Vehiculos = new List<Vehiculo>();
+        private readonly int EspacioDisponible;
 
         public Taller(int espacioDisponible)
         {
@@ -23,7 +17,6 @@ namespace Entidades
         }
 
         #region "Sobrecargas"
-
         /// <summary>
         /// Muestro el estacionamiento y TODOS los vehículos
         /// </summary>
@@ -32,11 +25,9 @@ namespace Entidades
         {
             return Listar(this, ETipo.Todos);
         }
-
         #endregion
 
         #region "Métodos"
-
         /// <summary>
         /// Expone los datos del elemento y su lista (incluidas sus herencias)
         /// SOLO del tipo requerido
@@ -80,18 +71,16 @@ namespace Entidades
 
             return sb.ToString();
         }
-
         #endregion
 
         #region "Operadores"
-
         /// <summary>
         /// Agregará un elemento a la lista
         /// </summary>
         /// <param name="taller">Objeto donde se agregará el elemento</param>
         /// <param name="vehiculoParam">Objeto a agregar</param>
         /// <returns></returns>
-        public static Taller operator +(Taller taller, object vehiculoParam)
+        public static Taller operator +(Taller taller, Vehiculo vehiculoParam)
         {
             foreach (Vehiculo vehiculo in taller.Vehiculos)
             {
@@ -115,7 +104,7 @@ namespace Entidades
         /// <param name="taller">Objeto donde se quitará el elemento</param>
         /// <param name="vehiculoParam">Objeto a quitar</param>
         /// <returns></returns>
-        public static Taller operator -(Taller taller, object vehiculoParam)
+        public static Taller operator -(Taller taller, Vehiculo vehiculoParam)
         {
             foreach (Vehiculo vehiculo in taller.Vehiculos)
             {
@@ -128,7 +117,6 @@ namespace Entidades
 
             return taller;
         }
-
         #endregion
 
         public enum ETipo

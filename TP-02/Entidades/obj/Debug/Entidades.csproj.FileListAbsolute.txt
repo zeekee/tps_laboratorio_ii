@@ -16,3 +16,4 @@ C:\Users\Ezequiel\Desktop\UTN 2022\TP-02\Entidades\bin\Debug\Entidades.pdb
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-02\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-02\Entidades\obj\Debug\Entidades.dll
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-02\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-02\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache

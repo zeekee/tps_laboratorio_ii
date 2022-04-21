@@ -6,11 +6,11 @@ namespace Entidades
     /// <summary>
     /// La clase Vehiculo no deberá permitir que se instancien elementos de este tipo.
     /// </summary>
-    public class Vehiculo
+    public abstract class Vehiculo
     {
-        EMarca Marca;
-        string Chasis;
-        ConsoleColor Color;
+        readonly EMarca Marca;
+        readonly string Chasis;
+        readonly ConsoleColor Color;
 
         /// <summary>
         /// ReadOnly: Retornará el tamaño
@@ -19,10 +19,10 @@ namespace Entidades
 
         public Vehiculo(EMarca marca, string chasis, ConsoleColor color, ETamanio tamanio)
         {
-            this.Marca = marca;
-            this.Chasis = chasis;
-            this.Color = color;
-            this.Tamanio = tamanio;
+            Marca = marca;
+            Chasis = chasis;
+            Color = color;
+            Tamanio = tamanio;
         }
 
         /// <summary>
@@ -54,7 +54,7 @@ namespace Entidades
         /// <returns></returns>
         public static bool operator ==(Vehiculo v1, Vehiculo v2)
         {
-            return (v1.Chasis == v2.Chasis);
+            return v1.Chasis == v2.Chasis;
         }
 
         /// <summary>
@@ -65,7 +65,7 @@ namespace Entidades
         /// <returns></returns>
         public static bool operator !=(Vehiculo v1, Vehiculo v2)
         {
-            return (v1.Chasis == v2.Chasis);
+            return v1.Chasis == v2.Chasis;
         }
 
         public enum EMarca
