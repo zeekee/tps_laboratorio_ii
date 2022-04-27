@@ -1,0 +1,48 @@
+C:\Users\Ezequiel\Desktop\UTN 2022\Programacion 2\TPN1\TPN1\bin\Debug\net5.0\Entidades.deps.json
+C:\Users\Ezequiel\Desktop\UTN 2022\Programacion 2\TPN1\TPN1\bin\Debug\net5.0\Entidades.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\Programacion 2\TPN1\TPN1\bin\Debug\net5.0\Entidades.pdb
+C:\Users\Ezequiel\Desktop\UTN 2022\Programacion 2\TPN1\TPN1\obj\Debug\net5.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel\Desktop\UTN 2022\Programacion 2\TPN1\TPN1\obj\Debug\net5.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\Ezequiel\Desktop\UTN 2022\Programacion 2\TPN1\TPN1\obj\Debug\net5.0\Entidades.AssemblyInfo.cs
+C:\Users\Ezequiel\Desktop\UTN 2022\Programacion 2\TPN1\TPN1\obj\Debug\net5.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\Desktop\UTN 2022\Programacion 2\TPN1\TPN1\obj\Debug\net5.0\Entidades.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\Programacion 2\TPN1\TPN1\obj\Debug\net5.0\ref\Entidades.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\Programacion 2\TPN1\TPN1\obj\Debug\net5.0\Entidades.pdb
+C:\Users\Ezequiel\Desktop\UTN 2022\Programacion 2\TPN1\TPN1\obj\Debug\net5.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\Ezequiel\Desktop\UTN 2022\Programacion 2\TPN1\TPN1\obj\Debug\net5.0\refint\Entidades.dll
+C:\Users\Ezequiel\Desktop\TPN1\TPN1\bin\Debug\net5.0\Entidades.deps.json
+C:\Users\Ezequiel\Desktop\TPN1\TPN1\bin\Debug\net5.0\Entidades.dll
+C:\Users\Ezequiel\Desktop\TPN1\TPN1\bin\Debug\net5.0\ref\Entidades.dll
+C:\Users\Ezequiel\Desktop\TPN1\TPN1\bin\Debug\net5.0\Entidades.pdb
+C:\Users\Ezequiel\Desktop\TPN1\TPN1\obj\Debug\net5.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\Ezequiel\Desktop\TPN1\TPN1\obj\Debug\net5.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel\Desktop\TPN1\TPN1\obj\Debug\net5.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\Ezequiel\Desktop\TPN1\TPN1\obj\Debug\net5.0\Entidades.AssemblyInfo.cs
+C:\Users\Ezequiel\Desktop\TPN1\TPN1\obj\Debug\net5.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\Desktop\TPN1\TPN1\obj\Debug\net5.0\Entidades.dll
+C:\Users\Ezequiel\Desktop\TPN1\TPN1\obj\Debug\net5.0\ref\Entidades.dll
+C:\Users\Ezequiel\Desktop\TPN1\TPN1\obj\Debug\net5.0\Entidades.pdb
+C:\Users\Ezequiel\Desktop\UTN 2022\TPN1\Entidades\bin\Debug\net5.0\Entidades.deps.json
+C:\Users\Ezequiel\Desktop\UTN 2022\TPN1\Entidades\bin\Debug\net5.0\Entidades.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\TPN1\Entidades\bin\Debug\net5.0\ref\Entidades.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\TPN1\Entidades\bin\Debug\net5.0\Entidades.pdb
+C:\Users\Ezequiel\Desktop\UTN 2022\TPN1\Entidades\obj\Debug\net5.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\Ezequiel\Desktop\UTN 2022\TPN1\Entidades\obj\Debug\net5.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel\Desktop\UTN 2022\TPN1\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\Ezequiel\Desktop\UTN 2022\TPN1\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfo.cs
+C:\Users\Ezequiel\Desktop\UTN 2022\TPN1\Entidades\obj\Debug\net5.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\Desktop\UTN 2022\TPN1\Entidades\obj\Debug\net5.0\Entidades.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\TPN1\Entidades\obj\Debug\net5.0\ref\Entidades.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\TPN1\Entidades\obj\Debug\net5.0\Entidades.pdb
+C:\Users\Ezequiel\Desktop\UTN 2022\RecuperatoriosTP\TP1\Entidades\bin\Debug\net5.0\Entidades.deps.json
+C:\Users\Ezequiel\Desktop\UTN 2022\RecuperatoriosTP\TP1\Entidades\bin\Debug\net5.0\Entidades.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\RecuperatoriosTP\TP1\Entidades\bin\Debug\net5.0\ref\Entidades.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\RecuperatoriosTP\TP1\Entidades\bin\Debug\net5.0\Entidades.pdb
+C:\Users\Ezequiel\Desktop\UTN 2022\RecuperatoriosTP\TP1\Entidades\obj\Debug\net5.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\Ezequiel\Desktop\UTN 2022\RecuperatoriosTP\TP1\Entidades\obj\Debug\net5.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel\Desktop\UTN 2022\RecuperatoriosTP\TP1\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\Ezequiel\Desktop\UTN 2022\RecuperatoriosTP\TP1\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfo.cs
+C:\Users\Ezequiel\Desktop\UTN 2022\RecuperatoriosTP\TP1\Entidades\obj\Debug\net5.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\Desktop\UTN 2022\RecuperatoriosTP\TP1\Entidades\obj\Debug\net5.0\Entidades.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\RecuperatoriosTP\TP1\Entidades\obj\Debug\net5.0\ref\Entidades.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\RecuperatoriosTP\TP1\Entidades\obj\Debug\net5.0\Entidades.pdb
