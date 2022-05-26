@@ -28,5 +28,8 @@
     <Compile Update="Controls\VentasControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Platypus.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
