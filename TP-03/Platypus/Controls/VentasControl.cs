@@ -84,7 +84,7 @@ namespace Platypus_2
         private void dataGridViewVenta_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
         {
             UpdateFinalPrice();
-           
+
         }
 
         private void dataGridViewVenta_RowsRemoved(object sender, DataGridViewRowsRemovedEventArgs e)

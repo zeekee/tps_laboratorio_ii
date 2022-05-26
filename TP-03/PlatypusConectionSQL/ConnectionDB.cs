@@ -49,7 +49,7 @@ namespace ConectionSQL
             command.Parameters.AddWithValue("@0", paramValue);
             SqlDataReader reader = command.ExecuteReader();
             command.Parameters.Clear();
-            return reader ;
+            return reader;
         }
 
         public int QueryExecuteNonQuery(string query)

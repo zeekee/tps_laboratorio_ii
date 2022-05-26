@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0ET099nlhHU/h5w99UUU9niZoTLtvZaYyG/XPtfht/vjE0EV/WRSSUy20e4jW8ZaaRFyEJ/fZtpjJu0yk15EZA==",
+  "dgSpecHash": "4oLh3TOR3TGcsD3VRkQdwoadNPYwZOPcY25g3MFPFjtMWCEhaAtMvEpOzZtDWOTSTPPcH6fOZ5RMrUMhYXsxvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ezequiel\\Desktop\\UTN 2022\\TP-03\\PlatypusConectionSQL\\ConnectionSQL.csproj",
+  "projectFilePath": "C:\\Users\\Ezequiel\\Desktop\\TP-03\\PlatypusConectionSQL\\ConnectionSQL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ezequiel\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Ezequiel\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -1,7 +1,7 @@
 ﻿
 namespace Platypus_2
 {
-    partial class Platypus
+    partial class Form1
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,7 +29,7 @@ namespace Platypus_2
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Platypus));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.SidePanel = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
@@ -48,9 +48,12 @@ namespace Platypus_2
             this.confirmExit1 = new Platypus_2.ConfirmExit();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.egresosControl1 = new Platypus_2.EgresosControl();
             this.homeControl1 = new Platypus_2.HomeControl();
             this.movimientosControl1 = new Platypus_2.MovimientosControl();
+            this.proveedoresControl1 = new Platypus_2.ProveedoresControl();
             this.ventasControl1 = new Platypus_2.VentasControl();
+            this.stockControl21 = new FrontendPlatypus.Controls.StockControl2();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -257,6 +260,13 @@ namespace Platypus_2
             this.label4.TabIndex = 14;
             this.label4.Text = "-";
             // 
+            // egresosControl1
+            // 
+            this.egresosControl1.Location = new System.Drawing.Point(193, 125);
+            this.egresosControl1.Name = "egresosControl1";
+            this.egresosControl1.Size = new System.Drawing.Size(1096, 588);
+            this.egresosControl1.TabIndex = 15;
+            // 
             // homeControl1
             // 
             this.homeControl1.Location = new System.Drawing.Point(193, 125);
@@ -271,6 +281,13 @@ namespace Platypus_2
             this.movimientosControl1.Size = new System.Drawing.Size(1096, 588);
             this.movimientosControl1.TabIndex = 17;
             // 
+            // proveedoresControl1
+            // 
+            this.proveedoresControl1.Location = new System.Drawing.Point(193, 125);
+            this.proveedoresControl1.Name = "proveedoresControl1";
+            this.proveedoresControl1.Size = new System.Drawing.Size(1096, 588);
+            this.proveedoresControl1.TabIndex = 18;
+            // 
             // ventasControl1
             // 
             this.ventasControl1.Location = new System.Drawing.Point(193, 125);
@@ -278,14 +295,24 @@ namespace Platypus_2
             this.ventasControl1.Size = new System.Drawing.Size(1096, 588);
             this.ventasControl1.TabIndex = 19;
             // 
-            // Platypus
+            // stockControl21
+            // 
+            this.stockControl21.Location = new System.Drawing.Point(193, 125);
+            this.stockControl21.Name = "stockControl21";
+            this.stockControl21.Size = new System.Drawing.Size(1096, 588);
+            this.stockControl21.TabIndex = 20;
+            // 
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1289, 713);
+            this.Controls.Add(this.stockControl21);
             this.Controls.Add(this.ventasControl1);
+            this.Controls.Add(this.proveedoresControl1);
             this.Controls.Add(this.movimientosControl1);
             this.Controls.Add(this.homeControl1);
+            this.Controls.Add(this.egresosControl1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
@@ -295,7 +322,7 @@ namespace Platypus_2
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.confirmExit1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Platypus";
+            this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -335,3 +362,4 @@ namespace Platypus_2
         private FrontendPlatypus.Controls.StockControl2 stockControl21;
     }
 }
+

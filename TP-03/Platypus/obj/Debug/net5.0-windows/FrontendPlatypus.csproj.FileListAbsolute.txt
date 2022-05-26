@@ -62,6 +62,7 @@ C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\Platypus\obj\Debug\net5.
 C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\Platypus\obj\Debug\net5.0-windows\Platypus_2.ProveedoresControl.resources
 C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.Controls.StockControl2.resources
 C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\Platypus\obj\Debug\net5.0-windows\Platypus_2.VentasControl.resources
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\Platypus\obj\Debug\net5.0-windows\Platypus_2.Form1.resources
 C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.Properties.Resources.resources
 C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.csproj.GenerateResource.cache
 C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.GeneratedMSBuildEditorConfig.editorconfig
@@ -73,42 +74,41 @@ C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\Platypus\obj\Debug\net5.
 C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\Platypus\obj\Debug\net5.0-windows\ref\FrontendPlatypus.dll
 C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.pdb
 C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.genruntimeconfig.cache
-C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\Platypus\obj\Debug\net5.0-windows\Platypus_2.Platypus.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\FrontendPlatypus.exe
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\FrontendPlatypus.deps.json
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\FrontendPlatypus.runtimeconfig.json
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\FrontendPlatypus.runtimeconfig.dev.json
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\FrontendPlatypus.dll
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\ref\FrontendPlatypus.dll
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\FrontendPlatypus.pdb
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\BackendPlatypus.dll
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\ConnectionSQL.dll
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\BackendPlatypus.pdb
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\ConnectionSQL.pdb
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.csproj.AssemblyReference.cache
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.Controls.AddStockItem.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.ConfirmExit.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.EgresosControl.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.HomeControl.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.MovimientosControl.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.ProveedoresControl.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.Controls.StockControl2.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.VentasControl.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.Platypus.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.Properties.Resources.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.csproj.GenerateResource.cache
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.AssemblyInfoInputs.cache
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.AssemblyInfo.cs
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.csproj.CoreCompileInputs.cache
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.csproj.CopyComplete
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.dll
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\ref\FrontendPlatypus.dll
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.pdb
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.genruntimeconfig.cache
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\bin\Debug\net5.0-windows\FrontendPlatypus.exe
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\bin\Debug\net5.0-windows\FrontendPlatypus.deps.json
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\bin\Debug\net5.0-windows\FrontendPlatypus.runtimeconfig.json
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\bin\Debug\net5.0-windows\FrontendPlatypus.runtimeconfig.dev.json
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\bin\Debug\net5.0-windows\FrontendPlatypus.dll
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\bin\Debug\net5.0-windows\ref\FrontendPlatypus.dll
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\bin\Debug\net5.0-windows\FrontendPlatypus.pdb
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\bin\Debug\net5.0-windows\BackendPlatypus.dll
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\bin\Debug\net5.0-windows\ConnectionSQL.dll
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\bin\Debug\net5.0-windows\BackendPlatypus.pdb
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\bin\Debug\net5.0-windows\ConnectionSQL.pdb
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.csproj.AssemblyReference.cache
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.Controls.AddStockItem.resources
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.ConfirmExit.resources
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.EgresosControl.resources
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.HomeControl.resources
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.MovimientosControl.resources
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.ProveedoresControl.resources
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.Controls.StockControl2.resources
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.VentasControl.resources
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.Form1.resources
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.Properties.Resources.resources
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.csproj.GenerateResource.cache
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.AssemblyInfoInputs.cache
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.AssemblyInfo.cs
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.csproj.CopyComplete
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.dll
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\ref\FrontendPlatypus.dll
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.pdb
+C:\Users\Ezequiel\Desktop\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.genruntimeconfig.cache

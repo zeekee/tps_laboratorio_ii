@@ -481,11 +481,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ezequiel\\Desktop\\UTN 2022\\TP-03\\PlatypusBackend\\BackendPlatypus.csproj",
+      "projectUniqueName": "C:\\Users\\Ezequiel\\Desktop\\TP-03\\PlatypusBackend\\BackendPlatypus.csproj",
       "projectName": "BackendPlatypus",
-      "projectPath": "C:\\Users\\Ezequiel\\Desktop\\UTN 2022\\TP-03\\PlatypusBackend\\BackendPlatypus.csproj",
+      "projectPath": "C:\\Users\\Ezequiel\\Desktop\\TP-03\\PlatypusBackend\\BackendPlatypus.csproj",
       "packagesPath": "C:\\Users\\Ezequiel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ezequiel\\Desktop\\UTN 2022\\TP-03\\PlatypusBackend\\obj\\",
+      "outputPath": "C:\\Users\\Ezequiel\\Desktop\\TP-03\\PlatypusBackend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -506,8 +506,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\Ezequiel\\Desktop\\UTN 2022\\TP-03\\PlatypusConectionSQL\\ConnectionSQL.csproj": {
-              "projectPath": "C:\\Users\\Ezequiel\\Desktop\\UTN 2022\\TP-03\\PlatypusConectionSQL\\ConnectionSQL.csproj"
+            "C:\\Users\\Ezequiel\\Desktop\\TP-03\\PlatypusConectionSQL\\ConnectionSQL.csproj": {
+              "projectPath": "C:\\Users\\Ezequiel\\Desktop\\TP-03\\PlatypusConectionSQL\\ConnectionSQL.csproj"
             }
           }
         }
