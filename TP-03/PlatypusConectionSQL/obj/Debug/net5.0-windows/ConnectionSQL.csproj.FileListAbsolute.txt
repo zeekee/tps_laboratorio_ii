@@ -1,0 +1,47 @@
+C:\Users\Ezequiel\Desktop\C#Projects\ConectionSQL\bin\Debug\net5.0-windows\ConnectionSQL.deps.json
+C:\Users\Ezequiel\Desktop\C#Projects\ConectionSQL\bin\Debug\net5.0-windows\ConnectionSQL.dll
+C:\Users\Ezequiel\Desktop\C#Projects\ConectionSQL\bin\Debug\net5.0-windows\ref\ConnectionSQL.dll
+C:\Users\Ezequiel\Desktop\C#Projects\ConectionSQL\bin\Debug\net5.0-windows\ConnectionSQL.pdb
+C:\Users\Ezequiel\Desktop\C#Projects\ConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel\Desktop\C#Projects\ConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.AssemblyInfoInputs.cache
+C:\Users\Ezequiel\Desktop\C#Projects\ConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.AssemblyInfo.cs
+C:\Users\Ezequiel\Desktop\C#Projects\ConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\Desktop\C#Projects\ConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.dll
+C:\Users\Ezequiel\Desktop\C#Projects\ConectionSQL\obj\Debug\net5.0-windows\ref\ConnectionSQL.dll
+C:\Users\Ezequiel\Desktop\C#Projects\ConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.pdb
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusConectionSQL\bin\Debug\net5.0-windows\ConnectionSQL.deps.json
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusConectionSQL\bin\Debug\net5.0-windows\ConnectionSQL.dll
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusConectionSQL\bin\Debug\net5.0-windows\ref\ConnectionSQL.dll
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusConectionSQL\bin\Debug\net5.0-windows\ConnectionSQL.pdb
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.AssemblyInfoInputs.cache
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.AssemblyInfo.cs
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.dll
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusConectionSQL\obj\Debug\net5.0-windows\ref\ConnectionSQL.dll
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.pdb
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.csprojAssemblyReference.cache
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusConectionSQL\bin\Debug\net5.0-windows\ConnectionSQL.deps.json
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusConectionSQL\bin\Debug\net5.0-windows\ConnectionSQL.dll
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusConectionSQL\bin\Debug\net5.0-windows\ref\ConnectionSQL.dll
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusConectionSQL\bin\Debug\net5.0-windows\ConnectionSQL.pdb
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.AssemblyInfoInputs.cache
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.AssemblyInfo.cs
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.dll
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusConectionSQL\obj\Debug\net5.0-windows\ref\ConnectionSQL.dll
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.pdb
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.csproj.AssemblyReference.cache
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\bin\Debug\net5.0-windows\ConnectionSQL.deps.json
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\bin\Debug\net5.0-windows\ConnectionSQL.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\bin\Debug\net5.0-windows\ref\ConnectionSQL.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\bin\Debug\net5.0-windows\ConnectionSQL.pdb
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.csproj.AssemblyReference.cache
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.AssemblyInfoInputs.cache
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.AssemblyInfo.cs
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\obj\Debug\net5.0-windows\ref\ConnectionSQL.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.pdb

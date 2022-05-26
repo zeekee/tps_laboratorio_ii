@@ -1,0 +1,60 @@
+C:\Users\Ezequiel\Desktop\C#Projects\BackendPlatypus\bin\Debug\net5.0-windows\BackendPlatypus.deps.json
+C:\Users\Ezequiel\Desktop\C#Projects\BackendPlatypus\bin\Debug\net5.0-windows\BackendPlatypus.dll
+C:\Users\Ezequiel\Desktop\C#Projects\BackendPlatypus\bin\Debug\net5.0-windows\ref\BackendPlatypus.dll
+C:\Users\Ezequiel\Desktop\C#Projects\BackendPlatypus\bin\Debug\net5.0-windows\BackendPlatypus.pdb
+C:\Users\Ezequiel\Desktop\C#Projects\BackendPlatypus\bin\Debug\net5.0-windows\ConnectionSQL.dll
+C:\Users\Ezequiel\Desktop\C#Projects\BackendPlatypus\bin\Debug\net5.0-windows\ConnectionSQL.pdb
+C:\Users\Ezequiel\Desktop\C#Projects\BackendPlatypus\obj\Debug\net5.0-windows\BackendPlatypus.csprojAssemblyReference.cache
+C:\Users\Ezequiel\Desktop\C#Projects\BackendPlatypus\obj\Debug\net5.0-windows\BackendPlatypus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel\Desktop\C#Projects\BackendPlatypus\obj\Debug\net5.0-windows\BackendPlatypus.AssemblyInfoInputs.cache
+C:\Users\Ezequiel\Desktop\C#Projects\BackendPlatypus\obj\Debug\net5.0-windows\BackendPlatypus.AssemblyInfo.cs
+C:\Users\Ezequiel\Desktop\C#Projects\BackendPlatypus\obj\Debug\net5.0-windows\BackendPlatypus.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\Desktop\C#Projects\BackendPlatypus\obj\Debug\net5.0-windows\BackendPlatypus.csproj.CopyComplete
+C:\Users\Ezequiel\Desktop\C#Projects\BackendPlatypus\obj\Debug\net5.0-windows\BackendPlatypus.dll
+C:\Users\Ezequiel\Desktop\C#Projects\BackendPlatypus\obj\Debug\net5.0-windows\ref\BackendPlatypus.dll
+C:\Users\Ezequiel\Desktop\C#Projects\BackendPlatypus\obj\Debug\net5.0-windows\BackendPlatypus.pdb
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusBackend\bin\Debug\net5.0-windows\BackendPlatypus.deps.json
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusBackend\bin\Debug\net5.0-windows\BackendPlatypus.dll
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusBackend\bin\Debug\net5.0-windows\ref\BackendPlatypus.dll
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusBackend\bin\Debug\net5.0-windows\BackendPlatypus.pdb
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusBackend\bin\Debug\net5.0-windows\ConnectionSQL.dll
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusBackend\bin\Debug\net5.0-windows\ConnectionSQL.pdb
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.csprojAssemblyReference.cache
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.AssemblyInfoInputs.cache
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.AssemblyInfo.cs
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.csproj.CopyComplete
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.dll
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusBackend\obj\Debug\net5.0-windows\ref\BackendPlatypus.dll
+C:\Users\Ezequiel\Desktop\C#Projects\Platypus\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.pdb
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusBackend\bin\Debug\net5.0-windows\BackendPlatypus.deps.json
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusBackend\bin\Debug\net5.0-windows\BackendPlatypus.dll
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusBackend\bin\Debug\net5.0-windows\ref\BackendPlatypus.dll
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusBackend\bin\Debug\net5.0-windows\BackendPlatypus.pdb
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusBackend\bin\Debug\net5.0-windows\ConnectionSQL.dll
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusBackend\bin\Debug\net5.0-windows\ConnectionSQL.pdb
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.csproj.AssemblyReference.cache
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.AssemblyInfoInputs.cache
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.AssemblyInfo.cs
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.csproj.CopyComplete
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.dll
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusBackend\obj\Debug\net5.0-windows\ref\BackendPlatypus.dll
+C:\Users\Ezequiel\Downloads\platypus-main\platypus-main\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.pdb
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusBackend\bin\Debug\net5.0-windows\BackendPlatypus.deps.json
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusBackend\bin\Debug\net5.0-windows\BackendPlatypus.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusBackend\bin\Debug\net5.0-windows\ref\BackendPlatypus.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusBackend\bin\Debug\net5.0-windows\BackendPlatypus.pdb
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusBackend\bin\Debug\net5.0-windows\ConnectionSQL.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusBackend\bin\Debug\net5.0-windows\ConnectionSQL.pdb
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.csproj.AssemblyReference.cache
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.AssemblyInfoInputs.cache
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.AssemblyInfo.cs
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.csproj.CoreCompileInputs.cache
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.csproj.CopyComplete
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusBackend\obj\Debug\net5.0-windows\ref\BackendPlatypus.dll
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusBackend\obj\Debug\net5.0-windows\BackendPlatypus.pdb
