@@ -39,7 +39,6 @@ namespace Platypus_2
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label2 = new System.Windows.Forms.Label();
             this.searchPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -147,22 +146,10 @@ namespace Platypus_2
             this.dataGridView1.Size = new System.Drawing.Size(524, 355);
             this.dataGridView1.TabIndex = 19;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(32, 316);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(387, 34);
-            this.label2.TabIndex = 26;
-            this.label2.Text = "*Si eliges un proveedor desde la lista, podras ver todo el dinero \r\npagado al mis" +
-    "mo en el tiempo.";
-            // 
             // EgresosControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
@@ -188,7 +175,6 @@ namespace Platypus_2
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox comboBox1;
     }
 }

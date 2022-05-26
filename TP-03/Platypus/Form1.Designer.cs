@@ -227,10 +227,9 @@ namespace Platypus_2
             this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.Location = new System.Drawing.Point(331, 66);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(911, 44);
+            this.label3.Size = new System.Drawing.Size(439, 22);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Platypus siempre será libre y de código abierto. Cualquier error, duda o sugerenc" +
-    "ia sobre el mismo, \r\npor favor escribir un mail a platypus.gestion@gmail.com\r\n";
+            this.label3.Text = "Platypus siempre será libre y de código abierto.\r\n";
             // 
             // confirmExit1
             // 
