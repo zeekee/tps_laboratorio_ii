@@ -110,6 +110,7 @@ namespace Platypus_2
                 {
                     ventasController.FinalizeSale(labelTotal.Text);
                     dataGridViewVenta.Rows.Clear();
+                    ClearProduct();
                     MessageBox.Show("La venta finalizo con exito.");
                 }
             }

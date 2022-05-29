@@ -52,6 +52,14 @@ namespace ConectionSQL
             return reader;
         }
 
+        public SqlDataReader QueryExecuteReader(string query)
+        {
+            SqlCommand command = new SqlCommand(query, connectDB);
+            SqlDataReader reader = command.ExecuteReader();
+            command.Parameters.Clear();
+            return reader;
+        }
+
         public int QueryExecuteNonQuery(string query)
         {
             SqlCommand command = new SqlCommand(query, connectDB);

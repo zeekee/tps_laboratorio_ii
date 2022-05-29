@@ -1,4 +1,8 @@
-﻿using System.Data;
+﻿using BackendPlatypus.Models;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace BackendPlatypus
 {
@@ -45,6 +49,36 @@ namespace BackendPlatypus
                 $"VALUES ('{id}', '{Name}', '{Address}', '{NumberOne}', '{NumberTwo}', '{Email}', '{ContactName}', '{TotalMoneyPaid}');";
 
             SqlController.QuerySqlDataAdapter(query);
+        }
+
+        public IList<Proveedores> GetAll()
+        {
+            List<Proveedores> proveedores = new List<Proveedores>();
+
+            SqlController.OpenConnection();
+            SqlDataReader result = SqlController.QueryExecuteReader($"SELECT * FROM proveedores");
+            while(result.Read())
+            {
+                Proveedores proveedor = new();
+
+                proveedor.Id = int.Parse(result["Id"].ToString());
+                proveedor.Name = result["Name"].ToString();
+                proveedor.Address = result["Address"].ToString();
+                proveedor.NumberOne = float.Parse(result["NumberOne"].ToString());
+                proveedor.NumberTwo = float.Parse(result["NumberTwo"].ToString());
+                proveedor.Email = result["Email"].ToString();
+                proveedor.ContactName = result["ContactName"].ToString();
+                proveedor.TotalMoneyPaid = float.Parse(result["TotalMoneyPaid"].ToString());
+
+                proveedores.Add(proveedor);
+            }
+            if (result != null)
+            {
+                ((IDisposable)result).Dispose();
+            }
+            SqlController.CloseConnection();
+
+            return proveedores;
         }
     }
 }

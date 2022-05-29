@@ -4,7 +4,7 @@
 if not exists (select * from sysobjects where name='Proveedores' and xtype='U')
 CREATE TABLE Proveedores (
     Id int IDENTITY(1,1) PRIMARY KEY,
-    Name varchar(255),
+    Name varchar(255) UNIQUE,
     Address varchar(255),
     NumberOne float,
     NumberTwo float,
@@ -53,6 +53,10 @@ INSERT INTO Proveedores (Name, Address, NumberOne, NumberTwo, Email, contactName
 VALUES ('La campañola', 'Calle false 123', 0, 0, 'test@gmail.com', 'Mr Test', 0)
 go
 
+INSERT INTO Proveedores (Name, Address, NumberOne, NumberTwo, Email, contactName, TotalMoneyPaid)
+VALUES ('Coto', 'Calle false 321', 0, 0, 'test@gmail.com', 'Mr Test 2', 0)
+go
+
 --- STOCK ---
 INSERT INTO Stock (Name, Brand, Price, Amount, IdProveedor, Discount)
 VALUES ('Atun', 'La campañola', 105.3, 300, 1, 0)
@@ -60,6 +64,16 @@ go
 
 INSERT INTO Stock (Name, Brand, Price, Amount, IdProveedor, Discount)
 VALUES ('Cerveza', 'Quilmes', 200, 500, 1, 15)
+go
+
+--- EGRESOS ---
+INSERT INTO Egresos (TotalCash, IdProveedor)
+VALUES (5000, 1)
+go
+
+--- VENTAS ---
+INSERT INTO Ventas (TotalSale)
+VALUES (400)
 go
 
 

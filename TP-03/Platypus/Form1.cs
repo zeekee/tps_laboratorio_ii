@@ -9,14 +9,10 @@ namespace Platypus_2
         public Form1()
         {
             InitializeComponent();
+            label4.Text = SqlController.OpenConnection();
             SidePanel.Height = button1.Height;
             SidePanel.Top = button1.Top;
             homeControl1.BringToFront();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            label4.Text = SqlController.OpenConnection();
         }
 
         private void button1_Click(object sender, EventArgs e)

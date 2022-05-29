@@ -23,7 +23,7 @@ namespace FrontendPlatypus.Controls
 
         private void button7_Click(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = stockController.Search(textBox2.Text,textBox1.Text);
+            dataGridView1.DataSource = stockController.Search(textBox2.Text, textBox1.Text);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -54,25 +54,43 @@ namespace FrontendPlatypus.Controls
             dataGridView1.CurrentRow.Selected = true;
             DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
 
-            label5.Text = row.Cells["Code"].Value.ToString();
+            label5.Text = row.Cells["Id"].Value.ToString();
             textBox3.Text = row.Cells["Name"].Value.ToString();
             textBox4.Text = row.Cells["Brand"].Value.ToString();
             textBox8.Text = row.Cells["Price"].Value.ToString();
-            textBox5.Text = row.Cells["Stock"].Value.ToString();
-            textBox6.Text = row.Cells["Supplier"].Value.ToString();
+            textBox5.Text = row.Cells["Amount"].Value.ToString();
+            textBox6.Text = row.Cells["IdProveedor"].Value.ToString();
             textBox7.Text = row.Cells["Discount"].Value.ToString();
+        }
+
+        private void ClearFields()
+        {
+            label5.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            textBox8.Text = "";
+            textBox5.Text = "";
+            textBox6.Text = "";
+            textBox7.Text = "";
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            stockController.UpdateItem(label5.Text, textBox3.Text, textBox4.Text, textBox8.Text, textBox5.Text, textBox6.Text, textBox7.Text);
-            ReFillGrid();
+            if (label5.Text != "-" && label5.Text != string.Empty)
+            {
+                stockController.UpdateItem(label5.Text, textBox3.Text, textBox4.Text, textBox8.Text, textBox5.Text, textBox6.Text, textBox7.Text);
+                ReFillGrid();
+            }
         }
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            stockController.DeleteItem(label5.Text);
-            ReFillGrid();
+            if (label5.Text != "-" && label5.Text != string.Empty)
+            {
+                stockController.DeleteItem(label5.Text);
+                ClearFields();
+                ReFillGrid();
+            }
         }
     }
 }

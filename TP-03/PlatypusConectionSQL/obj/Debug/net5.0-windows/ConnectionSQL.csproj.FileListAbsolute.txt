@@ -49,7 +49,6 @@ C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\bin\Debug\net5.0-w
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\bin\Debug\net5.0-windows\ConnectionSQL.dll
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\bin\Debug\net5.0-windows\ref\ConnectionSQL.dll
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\bin\Debug\net5.0-windows\ConnectionSQL.pdb
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.csproj.AssemblyReference.cache
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.AssemblyInfoInputs.cache
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\PlatypusConectionSQL\obj\Debug\net5.0-windows\ConnectionSQL.AssemblyInfo.cs

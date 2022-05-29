@@ -20,17 +20,30 @@ namespace BackendPlatypus
 
         public static DataTable QuerySqlDataAdapter(string query)
         {
-            return connectionDB.QuerySqlDataAdapter(query);
+            OpenConnection();
+            DataTable dt = connectionDB.QuerySqlDataAdapter(query);
+            CloseConnection();
+            return dt;
         }
 
         public static SqlDataReader QueryExecuteReader(string query, int paramValue)
         {
-            return connectionDB.QueryExecuteReader(query, paramValue);
+            SqlDataReader dr = connectionDB.QueryExecuteReader(query, paramValue);
+            return dr;
+        }
+
+        public static SqlDataReader QueryExecuteReader(string query)
+        {
+            SqlDataReader dr = connectionDB.QueryExecuteReader(query);
+            return dr;
         }
 
         public static int QueryExecuteNonQuery(string query)
         {
-            return connectionDB.QueryExecuteNonQuery(query);
+            OpenConnection();
+            int result = connectionDB.QueryExecuteNonQuery(query);
+            OpenConnection();
+            return result;
         }
     }
 }

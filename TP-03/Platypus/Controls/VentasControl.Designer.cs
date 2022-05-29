@@ -456,7 +456,7 @@ namespace Platypus_2
             this.searchPanel.Size = new System.Drawing.Size(408, 103);
             this.searchPanel.TabIndex = 11;
             this.searchPanel.TabStop = false;
-            this.searchPanel.Text = "Buscar por ID";
+            this.searchPanel.Text = "Buscar producto por ID";
             // 
             // multiplePanel
             // 
