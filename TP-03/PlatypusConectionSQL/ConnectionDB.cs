@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 
 namespace ConectionSQL
 {
-    public class ConnectionDB
+    public class ConnectionDB //TODO: Agregar try catch a los accesos a la base de datos
     {
         const string sqlName = "DESKTOP-7MMV0ST\\SQLEXPRESS";
         const string dbName = "PlatypusDB";

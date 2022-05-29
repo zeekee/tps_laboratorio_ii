@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Controls\AddStockItem.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Update="Controls\ConfirmExit.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -12,6 +9,9 @@
     </Compile>
     <Compile Update="Controls\StockControl2.cs">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\AddStockItem.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Update="Platypus.cs">
       <SubType>Form</SubType>

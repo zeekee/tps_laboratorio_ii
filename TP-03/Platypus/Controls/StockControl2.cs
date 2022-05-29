@@ -1,4 +1,5 @@
 ﻿using BackendPlatypus;
+using FrontendPlatypus.Forms;
 using System;
 using System.Windows.Forms;
 
@@ -46,7 +47,8 @@ namespace FrontendPlatypus.Controls
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //mostrar control que agrega nuevo item
+            AddStockItem addStockItem = new AddStockItem();
+            addStockItem.ShowDialog();
         }
 
         private void dataGridView1_CellClick_1(object sender, DataGridViewCellEventArgs e)

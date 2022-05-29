@@ -55,10 +55,10 @@ namespace BackendPlatypus
             SqlController.QuerySqlDataAdapter(query);
         }
 
-        public void InsertItem(string id, string Name, string Brand, string Price, string Stock, string Supplier, string Discount)
+        public void InsertItem(string Name, string Brand, string Price, string Stock, string Supplier, string Discount)
         {
-            string query = "INSERT INTO stock " +
-                $"VALUES ('{id}', '{Name}', '{Brand}', '{Price}', '{Stock}', '{Supplier}', '{Discount}');";
+            string query = "INSERT INTO stock (Name, Brand, Price, Amount, IdProveedor, Discount)" +
+                $"VALUES ('{Name}', '{Brand}', '{Price}', '{Stock}', '{Supplier}', '{Discount}');";
 
             SqlController.QuerySqlDataAdapter(query);
         }
