@@ -13,7 +13,7 @@
     <Compile Update="Controls\StockControl2.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Form1.cs">
+    <Compile Update="Platypus.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Controls\HomeControl.cs">
@@ -27,9 +27,6 @@
     </Compile>
     <Compile Update="Controls\VentasControl.cs">
       <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="Platypus.cs">
-      <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
 </Project>

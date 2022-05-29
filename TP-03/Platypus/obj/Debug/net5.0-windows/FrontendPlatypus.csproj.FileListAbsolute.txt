@@ -138,8 +138,6 @@ C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platy
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.ProveedoresControl.resources
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.Controls.StockControl2.resources
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.VentasControl.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.Form1.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.Platypus.resources
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.Properties.Resources.resources
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.csproj.GenerateResource.cache
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.GeneratedMSBuildEditorConfig.editorconfig
@@ -151,3 +149,4 @@ C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Front
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\ref\FrontendPlatypus.dll
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.pdb
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.genruntimeconfig.cache
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.Platypus.resources
