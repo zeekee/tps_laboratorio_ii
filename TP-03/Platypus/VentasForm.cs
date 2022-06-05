@@ -3,35 +3,39 @@ using BackendPlatypus.Models;
 using System;
 using System.Windows.Forms;
 
-namespace Platypus_2
+namespace FrontendPlatypus
 {
-    public partial class VentasControl : UserControl
+    public partial class VentasForm : Form
     {
         VentasController ventasController = new VentasController();
 
-        public VentasControl()
+        public VentasForm()
         {
             InitializeComponent();
-            scannerPanel.Hide();
-            searchPanel.Show();
-            multiplePanel.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void ClearProduct()
         {
-            searchPanel.Hide();
-            multiplePanel.Hide();
-            scannerPanel.Show();
+            labelCode.Text = "-";
+            labelDescription.Text = "-";
+            labelBrand.Text = "-";
+            labelAmount.Text = "-";
+            labelSupplier.Text = "-";
+            labelDiscount.Text = "-";
+            labelPrice.Text = "-";
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void UpdateFinalPrice()
         {
-            scannerPanel.Hide();
-            searchPanel.Show();
-            multiplePanel.Show();
+            float finalPrice = 0;
+            foreach (DataGridViewRow row in dataGridViewVenta.Rows)
+            {
+                finalPrice += float.Parse(row.Cells[4].Value.ToString());
+            }
+            labelTotal.Text = finalPrice.ToString();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click_1(object sender, EventArgs e)
         {
             Stock productSearch = new Stock();
 
@@ -62,18 +66,7 @@ namespace Platypus_2
             }
         }
 
-        private void ClearProduct()
-        {
-            labelCode.Text = "-";
-            labelDescription.Text = "-";
-            labelBrand.Text = "-";
-            labelAmount.Text = "-";
-            labelSupplier.Text = "-";
-            labelDiscount.Text = "-";
-            labelPrice.Text = "-";
-        }
-
-        private void button4_Click(object sender, EventArgs e)
+        private void button4_Click_1(object sender, EventArgs e)
         {
             if (labelCode.Text != "-")
             {
@@ -81,28 +74,7 @@ namespace Platypus_2
             }
         }
 
-        private void dataGridViewVenta_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
-        {
-            UpdateFinalPrice();
-
-        }
-
-        private void dataGridViewVenta_RowsRemoved(object sender, DataGridViewRowsRemovedEventArgs e)
-        {
-            UpdateFinalPrice();
-        }
-
-        private void UpdateFinalPrice()
-        {
-            float finalPrice = 0;
-            foreach (DataGridViewRow row in dataGridViewVenta.Rows)
-            {
-                finalPrice += float.Parse(row.Cells[4].Value.ToString());
-            }
-            labelTotal.Text = finalPrice.ToString();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
+        private void button5_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -118,6 +90,16 @@ namespace Platypus_2
             {
                 MessageBox.Show($"Ocurrio un error con la venta. {ex}");
             }
+        }
+
+        private void dataGridViewVenta_RowsAdded_1(object sender, DataGridViewRowsAddedEventArgs e)
+        {
+            UpdateFinalPrice();
+        }
+
+        private void dataGridViewVenta_RowsRemoved_1(object sender, DataGridViewRowsRemovedEventArgs e)
+        {
+            UpdateFinalPrice();
         }
     }
 }

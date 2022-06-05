@@ -2,13 +2,14 @@
 using System;
 using System.Windows.Forms;
 
-namespace Platypus_2
-{
-    public partial class EgresosControl : UserControl
-    {
-        EgresosController egresosController = new EgresosController(); 
 
-        public EgresosControl()
+namespace FrontendPlatypus
+{
+    public partial class EgresosForm : Form
+    {
+        EgresosController egresosController = new EgresosController();
+
+        public EgresosForm()
         {
             InitializeComponent();
             dataGridView1.DataSource = egresosController.Fill();

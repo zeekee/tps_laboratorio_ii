@@ -4,13 +4,7 @@
     <Compile Update="Controls\ConfirmExit.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Controls\EgresosControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="Controls\StockControl2.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="Forms\AddStockItem.cs">
+    <Compile Update="EgresosForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Platypus.cs">
@@ -19,14 +13,14 @@
     <Compile Update="Controls\HomeControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Controls\MovimientosControl.cs">
-      <SubType>UserControl</SubType>
+    <Compile Update="ProveedoresForm.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Controls\ProveedoresControl.cs">
-      <SubType>UserControl</SubType>
+    <Compile Update="StockForm.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Controls\VentasControl.cs">
-      <SubType>UserControl</SubType>
+    <Compile Update="VentasForm.cs">
+      <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
 </Project>

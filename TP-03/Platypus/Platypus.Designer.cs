@@ -38,7 +38,6 @@ namespace Platypus_2
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -48,12 +47,7 @@ namespace Platypus_2
             this.confirmExit1 = new Platypus_2.ConfirmExit();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.egresosControl1 = new Platypus_2.EgresosControl();
             this.homeControl1 = new Platypus_2.HomeControl();
-            this.movimientosControl1 = new Platypus_2.MovimientosControl();
-            this.proveedoresControl1 = new Platypus_2.ProveedoresControl();
-            this.ventasControl1 = new Platypus_2.VentasControl();
-            this.stockControl21 = new FrontendPlatypus.Controls.StockControl2();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -69,7 +63,6 @@ namespace Platypus_2
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.button7);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -108,7 +101,7 @@ namespace Platypus_2
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(193, 62);
             this.button5.TabIndex = 4;
-            this.button5.Text = "Movimientos";
+            this.button5.Text = "Proveedores";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -167,20 +160,6 @@ namespace Platypus_2
             this.button1.Text = "Home";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button7
-            // 
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(0, 560);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(193, 62);
-            this.button7.TabIndex = 5;
-            this.button7.Text = "Proveedores";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click_1);
             // 
             // panel2
             // 
@@ -259,13 +238,6 @@ namespace Platypus_2
             this.label4.TabIndex = 14;
             this.label4.Text = "-";
             // 
-            // egresosControl1
-            // 
-            this.egresosControl1.Location = new System.Drawing.Point(193, 125);
-            this.egresosControl1.Name = "egresosControl1";
-            this.egresosControl1.Size = new System.Drawing.Size(1096, 588);
-            this.egresosControl1.TabIndex = 15;
-            // 
             // homeControl1
             // 
             this.homeControl1.Location = new System.Drawing.Point(193, 125);
@@ -273,45 +245,12 @@ namespace Platypus_2
             this.homeControl1.Size = new System.Drawing.Size(1096, 588);
             this.homeControl1.TabIndex = 16;
             // 
-            // movimientosControl1
-            // 
-            this.movimientosControl1.Location = new System.Drawing.Point(193, 125);
-            this.movimientosControl1.Name = "movimientosControl1";
-            this.movimientosControl1.Size = new System.Drawing.Size(1096, 588);
-            this.movimientosControl1.TabIndex = 17;
-            // 
-            // proveedoresControl1
-            // 
-            this.proveedoresControl1.Location = new System.Drawing.Point(193, 125);
-            this.proveedoresControl1.Name = "proveedoresControl1";
-            this.proveedoresControl1.Size = new System.Drawing.Size(1096, 588);
-            this.proveedoresControl1.TabIndex = 18;
-            // 
-            // ventasControl1
-            // 
-            this.ventasControl1.Location = new System.Drawing.Point(193, 125);
-            this.ventasControl1.Name = "ventasControl1";
-            this.ventasControl1.Size = new System.Drawing.Size(1096, 588);
-            this.ventasControl1.TabIndex = 19;
-            // 
-            // stockControl21
-            // 
-            this.stockControl21.Location = new System.Drawing.Point(193, 125);
-            this.stockControl21.Name = "stockControl21";
-            this.stockControl21.Size = new System.Drawing.Size(1096, 588);
-            this.stockControl21.TabIndex = 20;
-            // 
-            // Form1
+            // Platypus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1289, 713);
-            this.Controls.Add(this.stockControl21);
-            this.Controls.Add(this.ventasControl1);
-            this.Controls.Add(this.proveedoresControl1);
-            this.Controls.Add(this.movimientosControl1);
             this.Controls.Add(this.homeControl1);
-            this.Controls.Add(this.egresosControl1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
@@ -321,7 +260,7 @@ namespace Platypus_2
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.confirmExit1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "Platypus";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
@@ -341,7 +280,6 @@ namespace Platypus_2
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
@@ -349,15 +287,10 @@ namespace Platypus_2
         private System.Windows.Forms.Panel SidePanel;
         private System.Windows.Forms.Label label3;
         private ConfirmExit confirmExit1;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
-        private EgresosControl egresosControl1;
         private HomeControl homeControl1;
-        private MovimientosControl movimientosControl1;
-        private ProveedoresControl proveedoresControl1;
-        private VentasControl ventasControl1;
-        private FrontendPlatypus.Controls.StockControl2 stockControl21;
+        private System.Windows.Forms.Button button5;
     }
 }
 

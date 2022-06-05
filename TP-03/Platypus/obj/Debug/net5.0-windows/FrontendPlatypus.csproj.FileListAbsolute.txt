@@ -131,12 +131,7 @@ C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\Backe
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\ConnectionSQL.pdb
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.csproj.AssemblyReference.cache
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.ConfirmExit.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.EgresosControl.resources
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.HomeControl.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.MovimientosControl.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.ProveedoresControl.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.Controls.StockControl2.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.VentasControl.resources
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.Properties.Resources.resources
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.csproj.GenerateResource.cache
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.GeneratedMSBuildEditorConfig.editorconfig
@@ -149,4 +144,7 @@ C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\ref\F
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.pdb
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.genruntimeconfig.cache
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Platypus_2.Platypus.resources
-C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.Forms.AddStockItem.resources
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.EgresosForm.resources
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.StockForm.resources
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.VentasForm.resources
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.ProveedoresForm.resources

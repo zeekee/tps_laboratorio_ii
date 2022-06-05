@@ -1,4 +1,5 @@
 ﻿using BackendPlatypus;
+using FrontendPlatypus;
 using System;
 using System.Windows.Forms;
 
@@ -26,40 +27,37 @@ namespace Platypus_2
         {
             SidePanel.Height = button2.Height;
             SidePanel.Top = button2.Top;
-            ventasControl1.BringToFront();
+            VentasForm ventas = new();
+            ventas.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             SidePanel.Height = button3.Height;
             SidePanel.Top = button3.Top;
-            egresosControl1.BringToFront();
+            EgresosForm egresos = new();
+            egresos.ShowDialog();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             SidePanel.Height = button4.Height;
             SidePanel.Top = button4.Top;
-            stockControl21.BringToFront();
+            StockForm stock = new();
+            stock.ShowDialog();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             SidePanel.Height = button5.Height;
             SidePanel.Top = button5.Top;
-            movimientosControl1.BringToFront();
+            ProveedoresForm proveedores = new();
+            proveedores.ShowDialog();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             confirmExit1.BringToFront();
-        }
-
-        private void button7_Click_1(object sender, EventArgs e)
-        {
-            SidePanel.Height = button7.Height;
-            SidePanel.Top = button7.Top;
-            proveedoresControl1.BringToFront();
         }
     }
 }
