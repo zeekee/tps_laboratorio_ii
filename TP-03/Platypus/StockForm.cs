@@ -11,7 +11,7 @@ namespace FrontendPlatypus
         public StockForm()
         {
             InitializeComponent();
-            dataGridView1.DataSource = stockController.Fill();
+            dataGridView1.DataSource = stockController.GetAll();
             dataGridView1.AutoSize = true;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             comboBox1.DataSource = stockController.GetProveedoreesName();
@@ -19,7 +19,7 @@ namespace FrontendPlatypus
 
         private void ReFillGrid()
         {
-            dataGridView1.DataSource = stockController.Fill();
+            dataGridView1.DataSource = stockController.GetAll();
         }
 
         private void button1_Click(object sender, EventArgs e)
