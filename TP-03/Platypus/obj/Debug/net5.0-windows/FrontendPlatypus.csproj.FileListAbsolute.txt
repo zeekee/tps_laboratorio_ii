@@ -148,3 +148,4 @@ C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\Front
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.StockForm.resources
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.VentasForm.resources
 C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\obj\Debug\net5.0-windows\FrontendPlatypus.ProveedoresForm.resources
+C:\Users\Ezequiel\Desktop\UTN 2022\TP-03\Platypus\bin\Debug\net5.0-windows\Newtonsoft.Json.dll

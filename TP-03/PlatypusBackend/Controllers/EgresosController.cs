@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -11,7 +12,7 @@ namespace BackendPlatypus.Controllers
     {
         ProveedoresController proveedoresController = new ProveedoresController();
 
-        public IList<string> GetProveedoresName() // TODO posible metodo en interfaz
+        public IList<string> GetProveedoresName()
         {
             List<string> proveedoresNames = new();
             proveedoresNames.AddRange(proveedoresController.GetAll().Select(x => x.Name));
@@ -45,6 +46,36 @@ namespace BackendPlatypus.Controllers
                 sum += float.Parse(dgv.Rows[i].Cells[1].Value.ToString());
             }
             return sum;
+        }
+
+        public void ExportFile(SaveFileDialog saveFileDialog, DataGridView dataGridView)
+        {
+            saveFileDialog.Filter = "Text File|*.txt";
+            saveFileDialog.Title = "Save an Text File";
+            saveFileDialog.ShowDialog();
+
+            if (saveFileDialog.FileName != "")
+            {
+                StreamWriter file = new(saveFileDialog.FileName);
+                try
+                {
+                    foreach (DataGridViewRow item in dataGridView.Rows)
+                    {
+                        file.WriteLine($"Total Cash: {item.Cells[1].Value}");
+                        file.WriteLine($"Id Proveedor: {item.Cells[2].Value}");
+                        file.WriteLine($"Pagado el: {item.Cells[3].Value}");
+                        file.WriteLine("------------------------------------------------");
+                    }
+
+                    file.Close();
+                    MessageBox.Show("Export Complete.", "Program Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (System.Exception err)
+                {
+                    MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    file.Close();
+                }
+            }
         }
     }
 }

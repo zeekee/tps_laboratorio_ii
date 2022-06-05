@@ -74,5 +74,22 @@ namespace FrontendPlatypus
                 ReFillGrid();
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            stockController.ExportFile(saveFileDialog1, dataGridView1);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            stockController.ExportJson(saveFileDialog1, dataGridView1);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.ShowDialog();
+            stockController.ImportJson(openFileDialog1, dataGridView1);
+            ReFillGrid();
+        }
     }
 }

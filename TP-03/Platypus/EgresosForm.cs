@@ -23,5 +23,10 @@ namespace FrontendPlatypus
             dataGridView1.DataSource = egresosController.Fill();
             labelTotal.Text = egresosController.AddTotal(dataGridView1).ToString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            egresosController.ExportFile(saveFileDialog1, dataGridView1); 
+        }
     }
 }

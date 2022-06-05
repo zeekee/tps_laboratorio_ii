@@ -55,5 +55,10 @@ namespace FrontendPlatypus
             textBoxEmail.Text = row.Cells["ContactName"].Value.ToString();
             textBoxContact.Text = row.Cells["Email"].Value.ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            proveedoresController.ExportFile(saveFileDialog1, dataGridView1);
+        }
     }
 }

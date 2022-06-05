@@ -4,6 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.IO;
+using System.Windows.Forms;
 
 namespace BackendPlatypus
 {
@@ -79,6 +81,38 @@ namespace BackendPlatypus
             SqlController.CloseConnection();
 
             return proveedores;
+        }
+
+        public void ExportFile(SaveFileDialog saveFileDialog, DataGridView dataGridView)
+        {
+            saveFileDialog.Filter = "Text File|*.txt";
+            saveFileDialog.Title = "Save an Text File";
+            saveFileDialog.ShowDialog();
+
+            if (saveFileDialog.FileName != "")
+            {
+                StreamWriter file = new(saveFileDialog.FileName);
+                try
+                {
+                    foreach (DataGridViewRow item in dataGridView.Rows)
+                    {
+                        file.WriteLine($"Name: {item.Cells[1].Value}");
+                        file.WriteLine($"Address: {item.Cells[2].Value}");
+                        file.WriteLine($"Number: {item.Cells[3].Value}");
+                        file.WriteLine($"Email: {item.Cells[5].Value}");
+                        file.WriteLine($"Contact Name: {item.Cells[6].Value}");
+                        file.WriteLine("------------------------------------------------");
+                    }
+
+                    file.Close();
+                    MessageBox.Show("Export Complete.", "Program Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (System.Exception err)
+                {
+                    MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    file.Close();
+                }
+            }
         }
     }
 }
