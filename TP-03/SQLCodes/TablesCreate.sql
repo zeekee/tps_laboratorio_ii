@@ -48,12 +48,12 @@ go
 ------ CARGA DATOS DE PRUEBA ------
 
 --- PROVEEDORES ---
-INSERT INTO Proveedores (Name, Address, NumberOne, NumberTwo, Email, contactName, TotalMoneyPaid)
-VALUES ('La campañola', 'Calle false 123', 0, 0, 'test@gmail.com', 'Mr Test', 0)
+INSERT INTO Proveedores (Name, Address, NumberOne, NumberTwo, Email, contactName)
+VALUES ('La campañola', 'Calle false 123', 0, 0, 'test@gmail.com', 'Mr Test')
 go
 
-INSERT INTO Proveedores (Name, Address, NumberOne, NumberTwo, Email, contactName, TotalMoneyPaid)
-VALUES ('Coto', 'Calle false 321', 0, 0, 'test@gmail.com', 'Mr Test 2', 0)
+INSERT INTO Proveedores (Name, Address, NumberOne, NumberTwo, Email, contactName)
+VALUES ('Coto', 'Calle false 321', 0, 0, 'test@gmail.com', 'Mr Test 2')
 go
 
 --- STOCK ---

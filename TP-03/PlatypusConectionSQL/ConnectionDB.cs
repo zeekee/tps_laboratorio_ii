@@ -42,7 +42,7 @@ namespace ConectionSQL
                 SqlDataAdapter data = new SqlDataAdapter(command);
                 data.Fill(table);
             }
-            catch { }
+            catch (Exception ex) { }
 
             return table;
         }
