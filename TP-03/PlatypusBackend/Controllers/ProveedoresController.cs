@@ -1,4 +1,5 @@
-﻿using BackendPlatypus.Models;
+﻿using BackendPlatypus.Interfaces;
+using BackendPlatypus.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -6,7 +7,7 @@ using System.Data.SqlClient;
 
 namespace BackendPlatypus
 {
-    public class ProveedoresController
+    public class ProveedoresController : IController<Proveedores>
     {
         public DataTable Search(string id, string description)
         {
@@ -31,22 +32,22 @@ namespace BackendPlatypus
 
         public void DeleteItem(string id)
         {
-            SqlController.QuerySqlDataAdapter($"DELETE FROM Proveedores WHERE Code = '{id}'");
+            SqlController.QuerySqlDataAdapter($"DELETE FROM Proveedores WHERE Id = '{id}'");
         }
 
-        public void UpdateItem(string id, string Name, string Address, string NumberOne, string NumberTwo, string Email, string ContactName, string TotalMoneyPaid)
+        public void UpdateItem(string id, string Name, string Address, string NumberOne, string NumberTwo, string Email, string ContactName)
         {
             string query = "UPDATE Proveedores " +
-                $"SET Name = '{Name}', Address = '{Address}', NumberOne = '{NumberOne}', NumberTwo = '{NumberTwo}', Email = '{Email}', ContactName = '{ContactName}', TotalMoneyPaid = '{TotalMoneyPaid}'" +
-                $"WHERE Code = {id};";
+                $"SET Name = '{Name}', Address = '{Address}', NumberOne = '{NumberOne}', NumberTwo = '{NumberTwo}', Email = '{Email}', ContactName = '{ContactName}'" +
+                $"WHERE Id = {id};";
 
             SqlController.QuerySqlDataAdapter(query);
         }
 
-        public void InsertItem(string id, string Name, string Address, string NumberOne, string NumberTwo, string Email, string ContactName, string TotalMoneyPaid)
+        public void InsertItem(string Name, string Address, string NumberOne, string NumberTwo, string Email, string ContactName)
         {
-            string query = "INSERT INTO Proveedores " +
-                $"VALUES ('{id}', '{Name}', '{Address}', '{NumberOne}', '{NumberTwo}', '{Email}', '{ContactName}', '{TotalMoneyPaid}');";
+            string query = "INSERT INTO Proveedores (Name, Address, NumberOne, NumberTwo, Email, ContactName)" +
+                $"VALUES ('{Name}', '{Address}', '{NumberOne}', '{NumberTwo}', '{Email}', '{ContactName}');";
 
             SqlController.QuerySqlDataAdapter(query);
         }
@@ -68,7 +69,6 @@ namespace BackendPlatypus
                 proveedor.NumberTwo = float.Parse(result["NumberTwo"].ToString());
                 proveedor.Email = result["Email"].ToString();
                 proveedor.ContactName = result["ContactName"].ToString();
-                proveedor.TotalMoneyPaid = float.Parse(result["TotalMoneyPaid"].ToString());
 
                 proveedores.Add(proveedor);
             }

@@ -1,12 +1,17 @@
-﻿using BackendPlatypus.Models;
+﻿using BackendPlatypus.Interfaces;
+using BackendPlatypus.Models;
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Linq;
 
 namespace BackendPlatypus
 {
-    public class StockController
+    public class StockController : IController<Stock>
     {
+        ProveedoresController proveedoresController = new ProveedoresController();
+
         private float CalculatePriceWithDiscount(float price, float discount)
         {
             float finalPrice = price;
@@ -18,6 +23,34 @@ namespace BackendPlatypus
             }
 
             return finalPrice;
+        }
+
+        private Stock SetStock(SqlDataReader result)
+        {
+            Stock stock = new();
+
+            stock.Id = int.Parse(result["Id"].ToString());
+            stock.Name = result["Name"].ToString();
+            stock.Brand = result["Brand"].ToString();
+            stock.Price = float.Parse(result["Price"].ToString());
+            stock.Amount = float.Parse(result["Amount"].ToString());
+            stock.IdProveedor = int.Parse(result["IdProveedor"].ToString());
+            stock.Discount = float.Parse(result["Discount"].ToString());
+            stock.PriceWithDiscount = CalculatePriceWithDiscount(stock.Price, stock.Discount);
+
+            return stock;
+        }
+
+        public IList<string> GetProveedoreesName()
+        {
+            List<string> proveedoresNames = new();
+            proveedoresNames.AddRange(proveedoresController.GetAll().Select(x => x.Name));
+            return proveedoresNames;
+        }
+
+        public string GetProveedorName(int id)
+        {
+            return proveedoresController.GetAll().FirstOrDefault(x => x.Id == id).Name;
         }
 
         public DataTable Search(string id, string description)
@@ -36,9 +69,23 @@ namespace BackendPlatypus
             return SqlController.QuerySqlDataAdapter(query);
         }
 
-        public DataTable Fill()
+        public IList<Stock> GetAll()
         {
-            return SqlController.QuerySqlDataAdapter($"select * from Stock");
+            List<Stock> stocks = new List<Stock>();
+
+            SqlController.OpenConnection();
+            SqlDataReader result = SqlController.QueryExecuteReader($"SELECT * FROM Stock");
+            while (result.Read())
+            {
+                stocks.Add(SetStock(result));
+            }
+            if (result != null)
+            {
+                ((IDisposable)result).Dispose();
+            }
+            SqlController.CloseConnection();
+
+            return stocks;
         }
 
         public void DeleteItem(string id)
@@ -48,8 +95,10 @@ namespace BackendPlatypus
 
         public void UpdateItem(string id, string Name, string Brand, string Price, string Stock, string Supplier, string Discount)
         {
+            int supplierId = proveedoresController.GetAll().FirstOrDefault(x => x.Name == Supplier).Id;
+
             string query = "UPDATE stock " +
-                $"SET Name = '{Name}', Brand = '{Brand}', Price = '{Price}', Amount = '{Stock}', IdProveedor = '{Supplier}', Discount = '{Discount}'" +
+                $"SET Name = '{Name}', Brand = '{Brand}', Price = '{Price}', Amount = '{Stock}', IdProveedor = '{supplierId}', Discount = '{Discount}'" +
                 $"WHERE id = {id};";
 
             SqlController.QuerySqlDataAdapter(query);
@@ -57,28 +106,22 @@ namespace BackendPlatypus
 
         public void InsertItem(string Name, string Brand, string Price, string Stock, string Supplier, string Discount)
         {
+            int supplierId = proveedoresController.GetAll().FirstOrDefault(x => x.Name == Supplier).Id;
+
             string query = "INSERT INTO stock (Name, Brand, Price, Amount, IdProveedor, Discount)" +
-                $"VALUES ('{Name}', '{Brand}', '{Price}', '{Stock}', '{Supplier}', '{Discount}');";
+                $"VALUES ('{Name}', '{Brand}', '{Price}', '{Stock}', '{supplierId}', '{Discount}');";
 
             SqlController.QuerySqlDataAdapter(query);
         }
 
         public Stock GetProduct(int idStock)
         {
-            Stock stock = new();
+            Stock stock;
             SqlController.OpenConnection();
             SqlDataReader result = SqlController.QueryExecuteReader($"SELECT * FROM Stock WHERE Id = @0", idStock);
             if (result.Read())
             {
-                stock.Id = int.Parse(result["Id"].ToString());
-                stock.Name = result["Name"].ToString();
-                stock.Brand = result["Brand"].ToString();
-                stock.Price = float.Parse(result["Price"].ToString());
-                stock.Amount = float.Parse(result["Amount"].ToString());
-                stock.IdProveedor = int.Parse(result["IdProveedor"].ToString());
-                stock.Discount = float.Parse(result["Discount"].ToString());
-
-                stock.PriceWithDiscount = CalculatePriceWithDiscount(stock.Price, stock.Discount);
+                stock = SetStock(result);
             }
             else
             {

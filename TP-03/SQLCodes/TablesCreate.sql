@@ -10,7 +10,6 @@ CREATE TABLE Proveedores (
     NumberTwo float,
 	Email varchar(255),
     ContactName varchar(255),
-	TotalMoneyPaid float,
 )
 go
 

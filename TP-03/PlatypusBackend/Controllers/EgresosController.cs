@@ -11,7 +11,7 @@ namespace BackendPlatypus.Controllers
     {
         ProveedoresController proveedoresController = new ProveedoresController();
 
-        public IList<string> GetProveedoresName()
+        public IList<string> GetProveedoresName() // TODO posible metodo en interfaz
         {
             List<string> proveedoresNames = new();
             proveedoresNames.AddRange(proveedoresController.GetAll().Select(x => x.Name));

@@ -4,12 +4,12 @@ using System.Data.SqlClient;
 
 namespace ConectionSQL
 {
-    public class ConnectionDB //TODO: Agregar try catch a los accesos a la base de datos
+    public class ConnectionDB
     {
-        const string sqlName = "DESKTOP-7MMV0ST\\SQLEXPRESS";
-        const string dbName = "PlatypusDB";
+        const string sqlName = "DESKTOP-7MMV0ST\\SQLEXPRESS"; // Cambiar por el nombre de su servidor
+        const string dbName = "PlatypusDB"; // Cambiar por nombre de la base que se vaya a usar
 
-        string stringConnection = $"Data Source={sqlName};Initial Catalog={dbName}; Integrated Security=True"; //TODO crear la base de datos si no existe desde el programa
+        string stringConnection = $"Data Source={sqlName};Initial Catalog={dbName}; Integrated Security=True";
         public SqlConnection connectDB = new SqlConnection();
 
         public ConnectionDB()
@@ -35,10 +35,14 @@ namespace ConectionSQL
 
         public DataTable QuerySqlDataAdapter(string query)
         {
-            SqlCommand command = new SqlCommand(query, connectDB);
-            SqlDataAdapter data = new SqlDataAdapter(command);
             DataTable table = new DataTable();
-            data.Fill(table);
+            try
+            {
+                SqlCommand command = new SqlCommand(query, connectDB);
+                SqlDataAdapter data = new SqlDataAdapter(command);
+                data.Fill(table);
+            }
+            catch { }
 
             return table;
         }
@@ -49,6 +53,7 @@ namespace ConectionSQL
             command.Parameters.AddWithValue("@0", paramValue);
             SqlDataReader reader = command.ExecuteReader();
             command.Parameters.Clear();
+
             return reader;
         }
 
@@ -62,8 +67,14 @@ namespace ConectionSQL
 
         public int QueryExecuteNonQuery(string query)
         {
-            SqlCommand command = new SqlCommand(query, connectDB);
-            int result = command.ExecuteNonQuery();
+            int result = 0;
+            try
+            {
+                SqlCommand command = new SqlCommand(query, connectDB);
+                result = command.ExecuteNonQuery();
+            }
+            catch { }
+
             return result;
         }
 

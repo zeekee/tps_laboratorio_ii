@@ -15,7 +15,5 @@
         public string Email { get; set; }
 
         public string ContactName { get; set; }
-
-        public float TotalMoneyPaid { get; set; }
     }
 }
