@@ -28,5 +28,19 @@ namespace FrontendPlatypus
         {
             egresosController.ExportFile(saveFileDialog1, dataGridView1); 
         }
+
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.Handled = !char.IsDigit(e.KeyChar))
+            {
+                errorProvider1.SetError(label2, "Solo numeros!");
+                label2.Text = "Solo numeros!";
+            }
+            else
+            {
+                errorProvider1.SetError(label2, "");
+                label2.Text = "";
+            }
+        }
     }
 }

@@ -101,5 +101,19 @@ namespace FrontendPlatypus
         {
             UpdateFinalPrice();
         }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.Handled=!char.IsDigit(e.KeyChar))
+            {
+                errorProvider1.SetError(label1, "Solo numeros!");
+                label1.Text = "Solo numeros!";
+            }
+            else
+            {
+                errorProvider1.SetError(label1, "");
+                label1.Text = "";
+            }
+        }
     }
 }

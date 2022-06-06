@@ -29,6 +29,7 @@ namespace FrontendPlatypus
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.labelTotal = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -41,8 +42,11 @@ namespace FrontendPlatypus
             this.button4 = new System.Windows.Forms.Button();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.button1 = new System.Windows.Forms.Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.searchPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -92,6 +96,7 @@ namespace FrontendPlatypus
             // 
             // searchPanel
             // 
+            this.searchPanel.Controls.Add(this.label2);
             this.searchPanel.Controls.Add(this.comboBox1);
             this.searchPanel.Controls.Add(this.label4);
             this.searchPanel.Controls.Add(this.textBox2);
@@ -128,6 +133,7 @@ namespace FrontendPlatypus
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(216, 26);
             this.textBox2.TabIndex = 11;
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // label3
             // 
@@ -164,6 +170,18 @@ namespace FrontendPlatypus
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(105, 104);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(0, 20);
+            this.label2.TabIndex = 15;
+            // 
             // EgresosForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -181,6 +199,7 @@ namespace FrontendPlatypus
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.searchPanel.ResumeLayout(false);
             this.searchPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,5 +219,7 @@ namespace FrontendPlatypus
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

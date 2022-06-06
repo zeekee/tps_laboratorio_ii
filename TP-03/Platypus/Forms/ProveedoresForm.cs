@@ -60,5 +60,33 @@ namespace FrontendPlatypus
         {
             proveedoresController.ExportFile(saveFileDialog1, dataGridView1);
         }
+
+        private void textBoxTel1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.Handled = !char.IsDigit(e.KeyChar))
+            {
+                errorProvider1.SetError(label3, "Solo numeros!");
+                label3.Text = "Solo numeros!";
+            }
+            else
+            {
+                errorProvider1.SetError(label3, "");
+                label3.Text = "";
+            }
+        }
+
+        private void textBoxTel2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.Handled = !char.IsDigit(e.KeyChar))
+            {
+                errorProvider1.SetError(label4, "Solo numeros!");
+                label4.Text = "Solo numeros!";
+            }
+            else
+            {
+                errorProvider1.SetError(label4, "");
+                label4.Text = "";
+            }
+        }
     }
 }

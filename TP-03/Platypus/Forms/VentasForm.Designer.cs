@@ -29,6 +29,7 @@ namespace FrontendPlatypus
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.searchPanel = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
@@ -60,14 +61,18 @@ namespace FrontendPlatypus
             this.Discount = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.UnitCost = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FinalPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             this.searchPanel.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewVenta)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // searchPanel
             // 
+            this.searchPanel.Controls.Add(this.label1);
             this.searchPanel.Controls.Add(this.textBox1);
             this.searchPanel.Controls.Add(this.button4);
             this.searchPanel.Controls.Add(this.button3);
@@ -85,6 +90,7 @@ namespace FrontendPlatypus
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(152, 26);
             this.textBox1.TabIndex = 0;
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // button4
             // 
@@ -406,7 +412,20 @@ namespace FrontendPlatypus
             this.FinalPrice.Name = "FinalPrice";
             this.FinalPrice.ReadOnly = true;
             // 
-            // Ventas
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(164, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 20);
+            this.label1.TabIndex = 10;
+            // 
+            // VentasForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -414,7 +433,7 @@ namespace FrontendPlatypus
             this.Controls.Add(this.searchPanel);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
-            this.Name = "Ventas";
+            this.Name = "VentasForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ventas";
             this.searchPanel.ResumeLayout(false);
@@ -424,6 +443,7 @@ namespace FrontendPlatypus
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewVenta)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -460,5 +480,7 @@ namespace FrontendPlatypus
         private System.Windows.Forms.DataGridViewTextBoxColumn Discount;
         private System.Windows.Forms.DataGridViewTextBoxColumn UnitCost;
         private System.Windows.Forms.DataGridViewTextBoxColumn FinalPrice;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Label label1;
     }
 }

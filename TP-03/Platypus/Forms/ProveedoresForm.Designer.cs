@@ -29,6 +29,7 @@ namespace FrontendPlatypus
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
@@ -51,8 +52,12 @@ namespace FrontendPlatypus
             this.button2 = new System.Windows.Forms.Button();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -117,6 +122,7 @@ namespace FrontendPlatypus
             this.textBoxTel2.Name = "textBoxTel2";
             this.textBoxTel2.Size = new System.Drawing.Size(168, 23);
             this.textBoxTel2.TabIndex = 63;
+            this.textBoxTel2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxTel2_KeyPress);
             // 
             // textBoxEmail
             // 
@@ -131,6 +137,7 @@ namespace FrontendPlatypus
             this.textBoxTel1.Name = "textBoxTel1";
             this.textBoxTel1.Size = new System.Drawing.Size(168, 23);
             this.textBoxTel1.TabIndex = 61;
+            this.textBoxTel1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxTel1_KeyPress);
             // 
             // textBoxName
             // 
@@ -266,11 +273,35 @@ namespace FrontendPlatypus
             this.label2.Text = "Si un proveedor esta linkeado a un producto en stock, no se podra eliminar. Prime" +
     "ro elimine el producto, luego el proveedor.";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(513, 31);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 20);
+            this.label3.TabIndex = 74;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(513, 125);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(0, 20);
+            this.label4.TabIndex = 75;
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // ProveedoresForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1139, 596);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox4);
@@ -296,6 +327,7 @@ namespace FrontendPlatypus
             this.Text = "ProveedoresForm";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -325,5 +357,8 @@ namespace FrontendPlatypus
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

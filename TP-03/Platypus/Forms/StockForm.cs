@@ -91,5 +91,47 @@ namespace FrontendPlatypus
             stockController.ImportJson(openFileDialog1, dataGridView1);
             ReFillGrid();
         }
+
+        private void textBoxDiscount_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.Handled = !char.IsDigit(e.KeyChar))
+            {
+                errorProvider1.SetError(label1, "Solo numeros!");
+                label1.Text = "Solo numeros!";
+            }
+            else
+            {
+                errorProvider1.SetError(label1, "");
+                label1.Text = "";
+            }
+        }
+
+        private void textBoxAmount_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.Handled = !char.IsDigit(e.KeyChar))
+            {
+                errorProvider1.SetError(label6, "Solo numeros!");
+                label6.Text = "Solo numeros!";
+            }
+            else
+            {
+                errorProvider1.SetError(label6, "");
+                label6.Text = "";
+            }
+        }
+
+        private void textBoxPrice_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.Handled = !char.IsDigit(e.KeyChar))
+            {
+                errorProvider1.SetError(label7, "Solo numeros!");
+                label7.Text = "Solo numeros!";
+            }
+            else
+            {
+                errorProvider1.SetError(label7, "");
+                label7.Text = "";
+            }
+        }
     }
 }
