@@ -4,22 +4,22 @@
     <Compile Update="Controls\ConfirmExit.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="EgresosForm.cs">
+    <Compile Update="Forms\EgresosForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Platypus.cs">
+    <Compile Update="Forms\Platypus.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Controls\HomeControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="ProveedoresForm.cs">
+    <Compile Update="Forms\ProveedoresForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="StockForm.cs">
+    <Compile Update="Forms\StockForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="VentasForm.cs">
+    <Compile Update="Forms\VentasForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

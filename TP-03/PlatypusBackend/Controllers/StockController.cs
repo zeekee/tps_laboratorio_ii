@@ -56,22 +56,6 @@ namespace BackendPlatypus
             return proveedoresController.GetAll().FirstOrDefault(x => x.Id == id).Name;
         }
 
-        public DataTable Search(string id, string description)
-        {
-            string query;
-
-            if (id != string.Empty)
-            {
-                query = $"select * from Stock where code = {id}";
-            }
-            else
-            {
-                query = $"select * from Stock where Name like '%{description}%' or Brand like '%{description}%' or Supplier like '%{description}%'"; ;
-            }
-
-            return SqlController.QuerySqlDataAdapter(query);
-        }
-
         public IList<Stock> GetAll()
         {
             List<Stock> stocks = new List<Stock>();

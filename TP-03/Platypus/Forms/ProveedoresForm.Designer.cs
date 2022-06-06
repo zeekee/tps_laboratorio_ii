@@ -246,11 +246,11 @@ namespace FrontendPlatypus
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(1059, 207);
+            this.button2.Location = new System.Drawing.Point(1042, 207);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(73, 32);
+            this.button2.Size = new System.Drawing.Size(90, 32);
             this.button2.TabIndex = 72;
-            this.button2.Text = "Export";
+            this.button2.Text = "Exportar txt";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
