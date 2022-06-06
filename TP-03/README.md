@@ -5,4 +5,4 @@ IMPORTANTE ANTES DE PROBAR EL PROGRAMA
   <img src="https://github.com/zeekee/tps_laboratorio_ii/blob/main/TP-03/Resources/Configuracion%20de%20conexion.png" width="350" title="hover text">
 </p>
 
-2) Dentro de la carpeta SQLCodes, se encuentra la query que crea las tablas y las puebla con los datos minimos para pruebas a la base.
+2) Dentro de la carpeta SQLCodes, se encuentra la query que crea las tablas y las puebla con los datos minimos para pruebas.
